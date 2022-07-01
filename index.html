@@ -17,8 +17,8 @@
     window.onload=()=>{
         const imageSufix = Modernizr.webp ? 'webp' : 'png';
         console.log(imageSufix);
-        const width =window.innerWidth<800?window.innerWidth-100:800;
-        const height = window.innerWidth<800?window.innerWidth-100:800;
+        const width =window.innerWidth<800?window.innerWidth:800;
+        const height = window.innerWidth<800?window.innerWidth:800;
         const speed = -0.008;
         const start = Date.now();
        const sphare = {type: "Sphere"}
