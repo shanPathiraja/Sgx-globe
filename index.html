@@ -17,8 +17,8 @@
     window.onload=()=>{
         const imageSufix = Modernizr.webp ? 'webp' : 'png';
         console.log(imageSufix);
-        const width =1000;
-        const height = 1000;
+        const width =800;
+        const height = 800;
         const speed = -0.008;
         const start = Date.now();
        const sphare = {type: "Sphere"}
@@ -98,6 +98,5 @@
         d3.select(self.frameElement).style("height", height + "px");
     }
 </script>
-<canvas width="1000" height="1000"></canvas>
 </body>
 </html>
